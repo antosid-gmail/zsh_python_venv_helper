@@ -5,4 +5,6 @@ source venv/bin/activate
 ... do something ...
 deactivate
 ```
-This simple snippet which is added to my local *.zshrc* file has solved the issue.
+This simple snippet which is added to my local `.zshrc` file has solved the problem.
+On a `cd` command script looks for `venv` directory and if it exists activates python wirtual environment.
+If `venv` does not exits and virtual enviromnet has been activated the script deactivates it.
